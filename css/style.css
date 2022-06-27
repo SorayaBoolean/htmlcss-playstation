@@ -14,3 +14,21 @@
     padding: 4px 4px;  
 }
 
+#jumbotron .btn {
+    background-color: orangered;
+}
+#jumbotron{
+    display: flex;
+    align-items: flex-end;
+}
+.jumbotron-contents {
+    width: 25%;
+}
+
+
+/********Debug********/
+
+.debug #jumbotron{
+    background-color: pink;
+    height: 500px;
+}

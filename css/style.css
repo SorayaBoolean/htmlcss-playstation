@@ -1,0 +1,12 @@
+:root{
+    --background-color-top: black ;
+}
+
+.mr_top-header{
+    background-color: var(--background-color-top);
+}
+
+.header-top img {
+    height: 10px;
+}
+

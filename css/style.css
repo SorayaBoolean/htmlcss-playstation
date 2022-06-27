@@ -25,6 +25,14 @@
     width: 25%;
 }
 
+/********MediaQ*******/
+
+@media all and (max-width: 768px) {
+        .jumbotron-contents {
+            width: 90%;
+        }
+}
+
 
 /********Debug********/
 
@@ -32,3 +40,4 @@
     background-color: pink;
     height: 500px;
 }
+

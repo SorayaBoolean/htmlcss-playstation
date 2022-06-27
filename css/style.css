@@ -41,3 +41,7 @@
     height: 500px;
 }
 
+.debug .col{
+    border: 1px dashed red;
+}
+

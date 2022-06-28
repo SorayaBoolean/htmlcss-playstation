@@ -1,5 +1,6 @@
 :root{
     --background-color-top: black ;
+    --text-blue: #0070D1;
 }
 
 /**********Header**********/
@@ -27,6 +28,9 @@
 
 /*************Main*************/
 
+#playstation p{
+    color: var(--text-blue);
+}
 
 
 

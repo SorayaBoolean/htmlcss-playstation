@@ -2,28 +2,34 @@
     --background-color-top: black ;
 }
 
-.mr_top-header{
-    background-color: var(--background-color-top);
+/**********Header**********/
+
+.mr_nv_right  li{
+    padding: 3px;
 }
 
-.header-top img {
-    height: 10px;
+
+.mr_logo_sony{
+    max-width: 80px;
 }
 
 .btn{
     padding: 4px 4px;  
 }
 
-#jumbotron .btn {
-    background-color: orangered;
+
+.mr_jumbotron_slide {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
 }
-#jumbotron{
-    display: flex;
-    align-items: flex-end;
+
+/*************Main*************/
+
+main{
+   
 }
-.jumbotron-contents {
-    width: 25%;
-}
+
 
 
 /********MediaQ*******/
@@ -38,24 +44,6 @@
 
 /********Debug********/
 
-.debug #jumbotron{
-    background-color: pink;
-    height: 500px;
-}
-
-.debug .col{
-    border: 1px dashed red;
-}
-
-.debug .row {
-    border: 1px solid blue;
-}
-
-.debug .jumbotron-selectors .col-2{
-    background-color: lightgreen ;
-    border: 1px dashed red;
-    min-height: 100px;
-}
 
 .debug #playstation .col-5{
     border: 1px dashed red;

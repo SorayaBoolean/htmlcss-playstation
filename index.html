@@ -10,19 +10,13 @@
     <script src="https://kit.fontawesome.com/d64aa79990.js" crossorigin="anonymous"></script>
 </head>
   <body class="debug">
-    <header>            <!--Header-->
-        <div class="container-fluid">
-            <div class="header-top">
-                <div class="row mr_top-header">
-                    <div class="col">
-                        <img  src="img/sony_logo.svg" alt="">
-                    </div>
-                  </div>
+                                            <!--Header-->
+    <header class="sticky-top">   
+            <div class="mr_header-top bg-black text-end">
+                <img class="mr_logo_sony py-2 pe-4" src="img/sony_logo.svg" alt="">     
             </div>
-        </div>  
-        
-        <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid">
+           <nav class="navbar navbar-expand-lg bg-light">
+           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img src="img/play_logo.svg" alt="playstation-logo">
             </a>
@@ -32,88 +26,34 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                  <a class="nav-link text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Giochi <i class="fa-solid fa-angle-down"></i>
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="#">Giochi <i class="fa-solid fa-angle-down"></i></a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Hardware <i class="fa-solid fa-angle-down"></i>
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li><li class="nav-item dropdown">
-                  <a class="nav-link text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Servizi <i class="fa-solid fa-angle-down"></i>
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="#">Hardware <i class="fa-solid fa-angle-down"></i></a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Novità <i class="fa-solid fa-angle-down"></i>
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="#">Servizi <i class="fa-solid fa-angle-down"></i></a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Fai Acquisti <i class="fa-solid fa-angle-down"></i>
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
+                <li class="nav-item ">
+                  <a class="nav-link text-black" href="#">Novità <i class="fa-solid fa-angle-down"></i></a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Supporto <i class="fa-solid fa-angle-down"></i>
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
+                <li class="nav-item ">
+                  <a class="nav-link text-black" href="#">Fai Acquisti <i class="fa-solid fa-angle-down"></i></a>
                 </li>
+                <li class="nav-item ">
+                  <a class="nav-link text-black " href="#">Supporto <i class="fa-solid fa-angle-down"></i></a>
+                </li>
+                
               </ul>
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                  <a class="nav-link text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    My PlayStation <i class="fa-solid fa-angle-down"></i>
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
+              <ul class="navbar-nav mr_nv_right ms-auto mb-2 mb-lg-0">
+                <li class="nav-item text-black">
+                  <a class="nav-link text-black" href="#">My PlayStation <i class="fa-solid fa-angle-down"></i></a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               
+                <li class="nav-item">
+                  <li class="nav-item">
                     <button type="button" class="btn rounded-pill btn-dark">Accedi</button>
-                  </a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -129,69 +69,32 @@
               </ul>
             </div>
           </div>
-        </nav>
-        <section id="jumbotron">
-          <div class="container-fluid">
-            <div class="jumbotron-contents ms-4 mb-5">
-              <h2>Rompi il Cerchio</h2>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione illum ex quas velit aut. Consequuntur nihil eaque temporibus nam nisi. Voluptate aut commodi rerum.</p>
-              <button type="button" class="btn rounded-pill">Acquista ora</button>
-            </div>
-            </section>
-            <div class="container-fluid jumbotron-selectors py-4 ">
-              <div class="row">
-                <div class="col-2">
-                  <img src="" alt="">
-                </div>
-                <div class="col-2 ">
-                  <img src="" alt="">
-                </div>
-                <div class="col-2 ">
-                  <img src="" alt="">
-                </div>
-                <div class="col-2 ">
-                  <img src="" alt="">
-                </div>
-                <div class="col-2 ">
-                  <img src="" alt="">
-                </div>
-                <div class="col-2 ">
-                  <img src="" alt="">
-                </div>
-                 
-              </div>
-            </div>
-                
-          </div>
-
-
-        </section>
-        
-            
-        
+        </nav>        
     </header>             
 
-    <main>              <!--Main-->
-      <section id="playstation">
-        <div class="container">
-          <div class="playstation-intro row d-flex justify-content-center">
-            <div class="col-5">col-5</div>
-          </div>
-          <div class=" playstation-description row d-flex">
-            <div class="playstation-text col-6">text</div>
-            <div class="playstation-img col-6">img</div>
-          </div>
-          <div class="playstation-selectors row">
-            <div class="container d-flex justify-content-between ">
-              <div class="col-2">col-2</div>
-              <div class="col-2">col-2</div>
-              <div class="col-2">col-2</div>
-              <div class="col-2">col-2</div>
-              <div class="col-2">col-2</div>
+    <main>    
+      <section id="jumbotron">
+        <div class="container-fluid text-light p-5">
+          <div class="mr_jumbotron_slide">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-lg-4">
+                    <img class="w-50"src="img/returnal-hero-banner-logo.png" alt="returnal-logo">
+                    <h2>Rompi il cerchio</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, laboriosam quasi. Libero eaque exercitationem consequuntur corporis iusto. Placeat, eligendi commodi suscipit sit harum beatae?</p>
+                    <button type="button" class="btn btn-danger rounded-pill">Acquista ora</button>
+                  </div>
+              </div>
             </div>
-            
           </div>
-        </div>
+
+          <div class="mr_jumbotron_thumb"></div>
+          
+
+      </section>
+
+      <section id="playstation">
+        
         
       </section>
 

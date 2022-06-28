@@ -22,23 +22,16 @@
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
+    padding-top: 300px;
 }
 
 /*************Main*************/
 
-main{
-   
-}
+
 
 
 
 /********MediaQ*******/
-
-@media all and (max-width: 768px) {
-        .jumbotron-contents {
-            width: 90%;
-        }
-}
 
 
 

@@ -44,15 +44,32 @@
     background-color: #1F1F1F;
 }
 
-.mr_text_new-games{
-    
+.mr_console_text{
+    margin-top: 200px;
+}
+
+.mr_zombie_img {
+    visibility: visible;
+}
+
+.mr_text_banner_2{
+  position: relative;
+  bottom: 20;
+}
+
+.mr_btn_color{
+    background-color: #D9DADC;
 }
 
 
 
 
 /********MediaQ*******/
-
+ @media all and (max-width: 576px) {
+    .mr_zombie_img {
+        visibility: hidden;
+    }
+ }
 
 
 /********Debug********/

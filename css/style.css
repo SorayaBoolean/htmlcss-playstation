@@ -25,6 +25,7 @@
     width: 25%;
 }
 
+
 /********MediaQ*******/
 
 @media all and (max-width: 768px) {
@@ -32,6 +33,7 @@
             width: 90%;
         }
 }
+
 
 
 /********Debug********/
@@ -45,3 +47,12 @@
     border: 1px dashed red;
 }
 
+.debug .row {
+    border: 1px solid blue;
+}
+
+.debug .jumbotron-selectors .col-2{
+    background-color: lightgreen ;
+    border: 1px dashed red;
+    min-height: 100px;
+}

@@ -1,5 +1,6 @@
 :root{
     --background-color-top: black ;
+    --second-background-color:#1F1F1F;
     --text-blue: #0070D1;
 }
 
@@ -39,6 +40,14 @@
     padding-top: 300px;
 }
 
+#new-games{
+    background-color: #1F1F1F;
+}
+
+.mr_text_new-games{
+    
+}
+
 
 
 
@@ -49,14 +58,3 @@
 /********Debug********/
 
 
-.debug #playstation .col-5{
-    border: 1px dashed red;
-    min-height: 200px;
-    background: orange;
-}
-
-.playstation-description .col-6{
-    border: 1px dashed red;
-    min-height: 300px;
-    background: orange;
-}

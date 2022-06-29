@@ -10,7 +10,6 @@
     padding: 3px;
 }
 
-
 .mr_logo_sony{
     max-width: 80px;
 }
@@ -22,7 +21,6 @@
 .mr_btn_orange{
     background-color: #CD3D0F;
 }
-
 
 .mr_jumbotron_slide {
     background-image: url(../img/jumbo-bg.png);
@@ -82,10 +80,9 @@
     background-color: #161C3B;
 }
 
-
-/********MediaQ*******/
-
-
+.mr_social_media_title{
+    margin: 100px;
+}
 /********Hover-Effects********/
 
 .mr_border_thum_hover .mr_wrap_thumb:hover{

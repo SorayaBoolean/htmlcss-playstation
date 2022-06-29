@@ -33,9 +33,19 @@
 
 /*************Main*************/
 
-#playstation p{
+#playstation  .mr_up_title p{
     color: var(--text-blue);
 }
+
+.mr_wrap_thumb{
+    border-bottom: 2px solid white;
+    margin-bottom: 30px;
+}
+
+.mr_wrap_thumb img {
+    opacity: 0.5;
+}
+
 
 .first_banner_slide{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -46,10 +56,6 @@
 
 #new-games{
     background-color: #1F1F1F;
-}
-
-.mr_console_text{
-    margin-top: 200px;
 }
 
 .mr_zombie_img {
@@ -76,6 +82,15 @@
  }
 
 
-/********Debug********/
+/********Hover-Effects********/
+
+.mr_border_thum_hover .mr_wrap_thumb:hover{
+    border-bottom:#0070D1 2px solid;
+    cursor: pointer;
+   }
+
+   .mr_wrap_thumb img:hover{
+    opacity: 1;
+   }
 
 
